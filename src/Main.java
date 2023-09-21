@@ -13,6 +13,9 @@ public class Main {
     public static final String SET_PHONE      = "SP";
     public static final String SET_EMAIL      = "SE";
     public static final String LIST_CONTACTS  = "LC";
+    public static final String LOOK_NUMBER = "GN";
+
+    public static final String CHECK_DUPLICATE = "EP";
     public static final String QUIT           = "Q";
 
     //Constantes que definem as mensagens para o utilizador
@@ -53,6 +56,12 @@ public class Main {
                 case LIST_CONTACTS:
                     listAllContacts(cBook);
                     break;
+                case LOOK_NUMBER:
+                    lookForNumber(cBook);
+                    break;
+                case CHECK_DUPLICATE:
+                    checkForDuplicate(cBook);
+                    break;
                 default:
                     System.out.println(COMMAND_ERROR);
             }
@@ -63,6 +72,9 @@ public class Main {
         System.out.println();
         in.close();
     }
+
+
+
 
     private static String getCommand(Scanner in) {
         String input;
@@ -146,5 +158,12 @@ public class Main {
             }
         }
         else System.out.println(BOOK_EMPTY);
+    }
+
+    private static void lookForNumber(ContactBook cBook) {
+
+    }
+
+    private static void checkForDuplicate(ContactBook cBook) {
     }
 }
