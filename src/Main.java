@@ -29,8 +29,8 @@ public class Main {
     public static final String COMMAND_ERROR = "Unknown command.";
     public static final String PHONE_NUMBER_DOES_NOT_EXIST = "Phone number does not exist.";
     public static final String NULL = "Null";
-    public static final String SHARE_PHONE_NUMBERS = "There are contacts that share phone numbers";
-    public static final String DIFFERENT_PHONE_NUMBERS = "All contacts have different phone numbers";
+    public static final String SHARE_PHONE_NUMBERS = "There are contacts that share phone numbers.";
+    public static final String DIFFERENT_PHONE_NUMBERS = "All contacts have different phone numbers.";
 
 
     public static void main(String[] args) {

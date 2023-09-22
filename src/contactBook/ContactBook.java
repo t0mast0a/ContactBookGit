@@ -102,4 +102,15 @@ public class ContactBook {
         return "Null";
     }
 
+    public boolean hasDuplicates() {
+        for (int i = 1; i < counter; i++) {
+            Contact c = contacts[i];
+            for (int j = counter - 1; j >= i; j--) {
+                if(c.getPhone() == contacts[j].getPhone() && i !=j){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
