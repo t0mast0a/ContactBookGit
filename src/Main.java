@@ -168,7 +168,7 @@ public class Main {
     private static void lookForNumber(Scanner in, ContactBook cBook) {
         int phone;
         phone = in.nextInt(); in.nextLine();
-        String name = cBook.getNumber(phone);
+        String name = cBook.getName(phone);
         if(name.equals(NULL)){
             System.out.println(PHONE_NUMBER_DOES_NOT_EXIST);
         } else {
