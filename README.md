@@ -1,4 +1,6 @@
 # ContactBookGit
-This is a starter kit for the first lab of the Software Engineering Course.
-Fork this project to make your own version of it.
+
+62689 Joana Monteiro
+63347 Sebastião Martins
+63350 Tomás Mendes
 
